@@ -1,14 +1,13 @@
 function convertToAdjList(adjMatrix) {
-    let matrix = [];
-    let edge;
+    adjMatrix = [];
     let list = [];
-    for (let i= 0; i < adjMatrix.length -1; i++){
-        matrix[i] = [];
-        for(let j = 0; j <= max; j++) {
-                matrix[i][j] = 0;
+    for (let i= 0; i < adjMatrix.length; i++){
+        adjmatrix[i] = [];
+        for(let j = 0; j < adjMatrix[i].length; j++) {
+                adjmatrix[i][j] = 0;
         }
-        if(matrix[i][j] == 1){
-            list[i].push(matrix[i][j];
+        if(adjmatrix[i][j] === 1){
+            list[i].push(adjmatrix[i][j];
         }
     }
     return list;
